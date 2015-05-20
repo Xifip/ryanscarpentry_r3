@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/tortus/refinerycms-slides.git
+  revision: 77936b80b89b1b5e3e4a87dace1ba4c35a7c4023
+  branch: 2-1-stable
+  specs:
+    refinerycms-slides (1.0)
+      refinerycms-core (~> 2.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -186,5 +194,6 @@ DEPENDENCIES
   rails (= 3.2.13)
   refinerycms (~> 2.1.0)
   refinerycms-acts-as-indexed (~> 1.0.0)
+  refinerycms-slides!
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)

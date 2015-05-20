@@ -1,0 +1,12 @@
+<%# app/views/refinery/pages/home.html.erb%>
+<% @slides.each do |slide| %>
+  <div><%=link_to (image_fu slide.image, '160x104'), slide.image.url %></div>
+<% end %>
+
+
+<div class="col-md-8">
+  <%= raw(@page.content_for(:body)) %>
+</div>
+<div class="col-md-4">
+  <%= raw(@page.content_for(:side_body)) %>
+</div>
